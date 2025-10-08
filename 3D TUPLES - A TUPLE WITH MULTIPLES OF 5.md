@@ -45,3 +45,4 @@ print(t,end="")
 <img width="1407" height="295" alt="Screenshot 2025-10-08 084146" src="https://github.com/user-attachments/assets/c5763f37-4e66-4212-b369-b5077a893522" />
 
 ### RESULT
+Thus, a Python program to create a tuple containing all multiples of 5 up to a given number **N** has been executed.
