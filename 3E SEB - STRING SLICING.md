@@ -1,4 +1,4 @@
-# Exp.No:3e
+ # Exp.No:3e
 ## SEB - STRING SLICING
 
 ---
@@ -23,8 +23,13 @@ To write a Python function that accepts a string and forms a new string by rever
 ### PROGRAM
 
 ```
+def slice(a):
+    b=a[9:1:-2]
+    print(f"The reversed string is '{b}'")
 ```
 
 ### OUTPUT
+<img width="817" height="204" alt="487585857-e2b5e134-4f33-461c-aed3-5970d614f336" src="https://github.com/user-attachments/assets/9b57da9e-3ff2-4547-97cc-31d0bd64d67e" />
 
 ### RESULT
+Thus a Python function that accepts a string and forms a new string by reversing the characters from the 4th position to the 10th position with alternate characters, and then prints the new string was executed and implemented successfully.
