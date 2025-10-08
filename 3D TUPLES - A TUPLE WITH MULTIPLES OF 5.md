@@ -22,8 +22,26 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 ### PROGRAM
 
 ```
+s=eval(input())
+
+t=()
+
+p=0
+
+i=0
+
+sum=0
+
+while p<s-5:
+
+i=i+1
+p=i*5
+t=t+(p,)
+print(t,end="")
 ```
 
 ### OUTPUT
+
+<img width="1407" height="295" alt="Screenshot 2025-10-08 084146" src="https://github.com/user-attachments/assets/c5763f37-4e66-4212-b369-b5077a893522" />
 
 ### RESULT
