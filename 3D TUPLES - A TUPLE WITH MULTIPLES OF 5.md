@@ -22,22 +22,12 @@ To write a Python program to create a tuple containing all multiples of 5 up to 
 ### PROGRAM
 
 ```
-s=eval(input())
-
-t=()
-
-p=0
-
-i=0
-
-sum=0
-
-while p<s-5:
-
-i=i+1
-p=i*5
-t=t+(p,)
-print(t,end="")
+l=[]
+n=int(input())
+for i in range(5,n,5):
+    l.append(i)
+t=tuple(l)
+print(t)
 ```
 
 ### OUTPUT
